@@ -11,8 +11,8 @@ local email = require("email163")
 email = email.new({
     name="羽123", -- 发送人名称
     server="smtp.163.com", -- SMTP服务器地址
-    user="18098949064@163.com", -- 邮箱用户名
-    password="fuck441419421",-- 邮箱密码
+    user="xxxx@163.com", -- 邮箱用户名
+    password="xxxxx",-- 邮箱密码
     html=true -- 是否使用html格式发送
 })
 local email_data = {
