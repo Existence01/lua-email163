@@ -77,7 +77,7 @@ function _M.send(tab)
 end
 
 _M._DESCRIPTION = "叉叉助手脚本针对163邮箱发送邮件的封装,支持多人发送,多附件发送,以HTML格式发送,使用需要bb库"
-_M._URL         = "https://github.com/Existence01/lua-email163.git",
+_M._URL         = "https://github.com/Existence01/lua-email163.git"
 _M._VERSION     = '0.1'
 
 return _M
