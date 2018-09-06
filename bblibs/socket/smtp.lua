@@ -166,7 +166,6 @@ local function send_multipart(mesgt)
     headers['content-type'] = headers['content-type'] or 'multipart/mixed'
     headers['content-type'] = headers['content-type'] ..
         '; boundary="' ..  bd .. '"'
-        print(headers)
     send_headers(headers)
     -- send preamble
     if mesgt.body.preamble then
