@@ -29,7 +29,4 @@ local email_data = {
 }
 
 local r,e = email.send(email_data)
-
-if r then
-    sysLog(e)
-end
+sysLog(e)
